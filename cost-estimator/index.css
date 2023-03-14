@@ -276,3 +276,51 @@ h1 {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+@media only screen and (max-width: 800px) {
+    .card-wrapper{
+        flex-wrap: wrap-reverse;
+        align-items: space-between;
+    }
+    .card {
+        width: 100%;
+    }
+    .sessions-card {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    
+    .container {
+        padding: 0 16px;
+    }
+
+    h1 {
+        margin-bottom: 32px;
+    }
+
+    body {
+        padding: 8px;
+    }
+    .sessions-card {
+        width: 100%;
+    }
+    .tabs p {
+        box-sizing: border-box;
+        font-size: 0.95rem;
+    }
+    .tabs .active::before {
+        width: 100%;
+        left: 0;
+    }
+    .line {
+        top: 92px;
+    }
+    .toggle-wrapper {
+        width: 90%;
+    }
+    .toggle {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+}
