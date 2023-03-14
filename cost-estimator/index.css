@@ -304,6 +304,7 @@ h1 {
     }
     .sessions-card {
         width: 100%;
+        box-sizing: border-box;
     }
     .tabs p {
         box-sizing: border-box;
